@@ -1,11 +1,11 @@
 import React from 'react';
 import {RecoilRoot} from "recoil";
-import {CharacterCounter} from "./CharacterCounter";
+import {TodoList} from "./todo/components/TodoList";
 
 function App(): JSX.Element {
   return (
     <RecoilRoot>
-      <CharacterCounter />
+      <TodoList />
     </RecoilRoot>
   );
 }
